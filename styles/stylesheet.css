@@ -1,0 +1,22 @@
+body{
+ font-size:1em;
+ font-weight:normal;
+ font-family: Arial;
+ color:#000000; /*black*/
+ text-align:left;
+}
+h1{
+ font-size:1.8em;
+ font-weight:bold;
+ color:#0000ff;/*blue*/
+ text-align:center;
+}
+a{
+  /*color:white;*/
+  text-decoration: none;
+  font-family: cursive;
+}
+ol{
+  font-family: cursive;
+  color:black;;
+}
