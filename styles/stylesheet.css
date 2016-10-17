@@ -12,11 +12,24 @@ h1{
  text-align:center;
 }
 a{
-  /*color:white;*/
   text-decoration: none;
   font-family: cursive;
 }
 ol{
   font-family: cursive;
-  color:black;;
+  color:black;
+  height: auto;
+  width: auto;
+  background-color: #BCD2ee;
+  border-radius: 10px
 }
+td{
+  height: auto;
+  width: auto;
+  background-color: blue;
+  border-radius: 10px;
+  text-align: center;
+}
+ span{
+  color:white;
+ }
