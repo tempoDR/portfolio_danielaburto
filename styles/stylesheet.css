@@ -5,16 +5,26 @@ body{
  color:#000000; /*black*/
  text-align:left;
  background-color:#062c86;
+ max-width: 80%;
 }
 h1{
  font-size:1.8em;
  font-weight:bold;
  color:#076ffb;
  text-align:center;
+ background-color: white;
+ border-color: black;
+ border-bottom-right-radius: 10em;
+ height: auto;
+ width: auto;
 }
 a{
   font-family: cursive;
-  color: white;
+  color:#96BFD1;
+
+}
+td:hover{
+  background-color: #42D3ED;
 }
 ol{
   font-family: cursive;
@@ -22,13 +32,13 @@ ol{
   height: auto;
   width: auto;
   background-color: #00acfd;
-  border-radius: 10px
+  border-radius: 10px;
 }
 td{
   height: auto;
   width: auto;
   background-color: black;
-  border-radius: 10px;
+  border-radius: 10em;
   text-align: center;
 }
  span{
@@ -38,12 +48,19 @@ h2{
    height: auto;
    width: auto;
    background-color:black;
-   border-radius: 50px;
+   border-radius: 50em;
    text-align: center;
 }
 p{
   color:white;
+  height: auto;
+  width: auto;
+  background-color: #00acfd;
+  border-radius: 10px;
 }
 li{
   color:white;
+}
+
+{
 }
