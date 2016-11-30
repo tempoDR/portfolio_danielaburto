@@ -45,7 +45,7 @@ td{
   border-radius: 10em;
   text-align: center;
 }
- span{
+ #guide{
   color:white;
  }
 h2{
@@ -55,14 +55,16 @@ h2{
    border-radius: 50em;
    text-align: center;
 }
+/*
 p{
-  color:/*white*/black;
+  color:black;
   height: auto;
   width: auto;
-  background-color: /*#00acfd*/#B4B8C5;
+  background-color:#B4B8C5;
   border-radius: 10px;
   text-align: center;
 }
+*/
 li{
   color:/*white*/black;
 }
