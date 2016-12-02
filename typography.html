@@ -15,15 +15,16 @@
       <table width="100%">
       <tbody>
       <tr>
-       <td><a href="index.html"><span>Home</span></a></td>
-       <td><a href="color.html"><span>Color</span></a></td>
-       <td><a href="typography.html"><span>Typography</span></a></td>
-       <td><a href="designelements.html"><span>Design Elements</span></a></td>
-       <td><a href="graphics.html"><span>Graphics</span></a></td>
-       <td><a href="scripting.html"><span>Javascript</span></a></td>
-       <td><a href="usability.html"><span>Usability</span></a></td>
-       <td><a href="Publishing.html"><span>Publishing</span></a></td>
-      </tr>
+        <td><a href="index.html"><span id="guide">Home</span></a></td>
+        <td><a href="color.html"><span id="guide">Color</span></a></td>
+        <td><a href="typography.html"><span id="guide">Typography</span></a></td>
+        <td><a href="designelements.html"><span id="guide">Design Elements</span></a></td>
+        <td><a href="graphics.html"><span id="guide">Graphics</span></a></td>
+        <td><a href="scripting.html"><span id="guide">Javascript</span></a></td>
+        <td><a href="usability.html"><span id="guide">Usability</span></a></td>
+        <td><a href="Publishing.html"><span id="guide">Publishing</span></a></td>
+       <td><a href="UnitProject.html"><span id="guide">Unit Project</span></a></td>
+       </tr>
       </tbody>
       </table>
     </nav>
@@ -47,7 +48,7 @@
       while risking collisions between ascenders and descenders. Expanding the line spacing creates a lighter, more open text block. As leading increases, lines of type become independent graphic elements rather than parts of an overall visual shape and texture.
       </div>
      <h2>Information Hierachy Assignment</h2>
-
+<!--Lesson 9 Assignment-->
      <h3>Hierarchy: Ordered Information</h3>
      <section>
       <!-- Make each line below appear on its own separate line in the browser. -->
@@ -125,24 +126,51 @@
      <section>
       <!-- CHALLENGE: Can you organize the text below in the same way as the fifth layout in the Typekit article? Give it a try! Organize each piece of content into its own div, and give classes to the divs you want to behave similarly. Style those divs with CSS. -->
 
+      <div class='indent'>
+        Design Lecture Series<br>
+        Portland State University<br>
+        Art Department<br><br><br><br>
+      </div>
+
       <div id='title'>
-          <span id='typ'>The Typography of</span>
-          <span id='paul'>Paul Rand</span> with Lewis Blackwell
+          <span id='typ'>The Typography of</span><br>
+          <span id='paul'>Paul Rand</span><br>
+          <pan id="Lewis">with Lewis Blackwell</span><br><br>
         </div>
 
         <div class='indent'>
-          Shattuck Hall - 7:00 pm March 30, 2011
+          Shattuck Hall - 7:00 pm<br>
+           March 30, 2011<br><br><br><br>
         </div>
 
-        <div class='indent'>
-          Design Lecture Series Portland State University Art Department
-        </div>
+
 
         <div class='indent'>
-          With wit and wisdom, Blackwell dissects the patterns of Rand's use of typography throughout his brands, book covers, and advertising work.
+          With wit and wisdom, Blackwell dissects<br>
+           the patterns of Rand's use of typography<br>
+            throughout his brands, book covers, and<br>
+             advertising work.
         </div>
 
       </section>
+<!-- Lesson 10 Assignment-->
+<!--
+  In this assignment, it is highly recommended that you separate your HTML text content into DIVs and/or SPANs, then give them unique ID attributes to style each group individually, or common CLASS attributes to style common groups of elements.
+
+  Remember, to target an element with an ID attribute in your stylesheet, use a hashtag (#) before the ID name. (If <div id="sample"></div>, then the selector is #sample).
+
+  To target an element with a CLASS attribute in your stylesheet, use a period (.) before the ID name. (If <div class="example"></div>, then the selector is .example).
+-->
+
+<h3>Poster Assignment</h3>
+<div id="grandCanyon">
+  Grand Canyon National Park
+  277 miles long
+  up to 18 miles wide
+  over a mile deep
+  plan your visit: nps.gov/grca
+
+</div>
 
      </main>
   </body>

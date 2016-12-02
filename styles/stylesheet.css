@@ -14,7 +14,7 @@ body{
 }
 h1{
  font-size:1.8em;
- font-weight:bold;
+ font-weight:100px;
  color:/*#076ffb*/#A5A299;
  text-align:center;
  background-color: /*white*/#C3C9E9;
@@ -35,7 +35,7 @@ ol{
   color:black;
   height: auto;
   width: auto;
-  background-color:/*#00acfd*/#B4B8C5;
+  background-color:/*#00acfd,#B4B8C5*/white;
   border-radius: 10px;
 }
 td{
@@ -45,7 +45,7 @@ td{
   border-radius: 10em;
   text-align: center;
 }
- #guide{
+#guide{
   color:white;
  }
 h2{
@@ -55,16 +55,9 @@ h2{
    border-radius: 50em;
    text-align: center;
 }
-/*
 p{
-  color:black;
-  height: auto;
-  width: auto;
-  background-color:#B4B8C5;
-  border-radius: 10px;
-  text-align: center;
+font-size: 2em;
 }
-*/
 li{
   color:/*white*/black;
 }
