@@ -11,6 +11,7 @@ body{
  text-align:left;
  background-color:/*#062c86*/#A5A299;
  max-width: 80%;
+ margin: 0 auto;
 }
 h1{
  font-size:1.8em;

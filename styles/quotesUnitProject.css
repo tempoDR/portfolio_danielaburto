@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Neuton');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+#lyrics{
+  margin: 5% auto;
+  background-color: #E8EEF2;
+  height:auto;
+  width: 300px;
+  font-size: 3em;
+  text-align: center;
+  border: 20px solid #37393A;
+  font-family: "Amatic SC";
+  padding: 50px;
+}
+#story{
+  width: 400px;
+  margin: 5% auto;
+  padding-left: 10px;
+  color:white;
+  background-color: #171717;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: Neuton;
+  letter-spacing: 2px;
+}
+#clap{
+  margin: 5% auto;
+  font-family: Tangerine;
+  font-size: 3em;
+  height:auto;
+  width: 450px;
+  background-color: #77B6EA;
+  text-align: center;
+  font-weight: bold;
+  line-height: 150%
+}
+#unknown{
+  text-align: right;
+}
