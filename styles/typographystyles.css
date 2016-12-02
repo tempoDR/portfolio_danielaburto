@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
 /* Do not change this style */
 .rectangle {
   font-family: "Helvetica";
@@ -87,6 +88,7 @@ section p {
 #paul {
   font-size: 2em;
 }
+
 #Lewis{
   padding-left: 115px;
 }
@@ -108,4 +110,32 @@ section p {
   height: 500px;
   width: 800px;
   margin:0 auto;
+  font-family: "Aref Ruqaa";
+}
+
+#Park{
+  font-weight: bold;
+  font-size: 2.5em;
+}
+#banner{
+  border-radius: 1em;
+  /*text-align: center;*/
+  margin-left: 40px;
+  margin-top: 150px;
+  padding: 20px 0px;
+  font-size: 1em;
+  height: 110px;
+  width: 275px;
+  background-color: white;
+}
+
+#bannerP{
+  font-weight: bolder;
+  line-height: 200%;
+  font-size: 1.12em;
+  margin: 0% 0% 14% 9%;
+}
+
+#miles{
+  padding-left: 300px;
 }
