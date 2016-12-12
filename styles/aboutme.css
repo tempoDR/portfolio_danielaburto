@@ -31,3 +31,20 @@ h2{
   width: 20%;
   float: left;
 }
+ul{
+text-decoration: none;
+}
+li{
+text-align: center;
+}
+div ul li{
+  margin-bottom: 20px;
+}
+div ul{
+  padding: 10px;
+}
+nav ul li {
+  float: left;
+  width: 12%;
+  margin-bottom: 30px;
+}
